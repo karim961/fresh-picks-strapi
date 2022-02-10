@@ -1,0 +1,48 @@
+{
+  "name": "fresh-pick-cms",
+  "private": true,
+  "version": "1.0.0",
+  "description": "FRESH PICK CMS",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "start:dev": "pm2 start ./scripts/dev/ecosystem.config.js",
+    "start:uat": "pm2 start ./scripts/uat/ecosystem.config.js",
+    "start:prod": "pm2 start ./scripts/prod/ecosystem.config.js",
+    "build": "strapi build",
+    "build:uat": "ENV_PATH=.env.uat strapi build",
+    "build:prod": "ENV_PATH=.env.prod strapi build",
+    "build:uat:windows": "$env:ENV_PATH=\".env.uat\" ; strapi build",
+    "build:prod:windows": "$env:ENV_PATH=\".env.prod\" ; strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "knex": "0.20.0",
+    "pg": "^8.5.1",
+    "pg-connection-string": "^2.4.0",
+
+    "strapi": "^3.4.6",
+    "strapi-admin": "3.3.3",
+    "strapi-connector-bookshelf": "3.3.3",
+    "strapi-connector-mongoose": "^3.5.2",
+    "strapi-plugin-content-manager": "3.3.3",
+    "strapi-plugin-content-type-builder": "3.3.3",
+    "strapi-plugin-documentation": "3.3.3",
+    "strapi-plugin-email": "3.3.3",
+    "strapi-plugin-graphql": "3.3.3",
+    "strapi-plugin-upload": "3.3.3",
+    "strapi-plugin-users-permissions": "3.3.3",
+    "strapi-provider-email-nodemailer-v3": "^1.0.2",
+    "strapi-provider-upload-cloudinary": "^3.4.1",
+    "strapi-utils": "3.3.3"
+  },
+  "author": {
+    "name": "Karim Abbas"
+  },
+  "engines": {
+    "node": ">=12.0.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

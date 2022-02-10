@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_lets_talks",
+  "info": {
+    "name": "Lets-Talk",
+    "icon": "comments",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.paragraph-block"
+    }
+  }
+}

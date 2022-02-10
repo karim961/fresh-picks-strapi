@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_section_grid_blocks",
+  "info": {
+    "name": "Grid-Block",
+    "icon": "square-full",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "components": {
+      "collection": "grid-component"
+    },
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

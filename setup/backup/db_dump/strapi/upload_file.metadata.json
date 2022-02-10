@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"strapi.upload_file"}],"uuid":"48f161618f9841b5b3cbbb68470b3bdd"}

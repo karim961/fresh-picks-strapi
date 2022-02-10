@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_image_blocks",
+  "info": {
+    "name": "Image-Block",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.header-description"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.image-card"
+    },
+    "paragraph": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.paragraph-block"
+    }
+  }
+}

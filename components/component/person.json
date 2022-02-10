@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_component_people",
+  "info": {
+    "name": "person",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "family_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "emirate_of_residence": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "date_of_birth": {
+      "type": "date"
+    }
+  }
+}

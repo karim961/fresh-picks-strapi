@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"strapi.career_applications"}],"uuid":"f4f49f997f064bf49f4246b2bff6956b"}

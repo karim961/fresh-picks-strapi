@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"strapi.components_section_product_blocks"}],"uuid":"990f1117b5e441279bc53ca2ecdb0dd7"}

@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grid_components",
+  "info": {
+    "name": "Grid Component",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "colSpace": {
+      "type": "integer",
+      "max": 12,
+      "min": 1,
+      "default": 12
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "section.carousel",
+        "component.media",
+        "component.header-description",
+        "component.rich-content",
+        "component.paragraph-block",
+        "section.grid-block",
+        "section.repeatable-hero-banner",
+        "section.hero-banner",
+        "section.image-block"
+      ]
+    },
+    "tag": {
+      "type": "string"
+    }
+  }
+}

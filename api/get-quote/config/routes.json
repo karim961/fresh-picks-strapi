@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/get-quote",
+      "handler": "get-quote.send",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

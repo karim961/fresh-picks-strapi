@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_section_repeatable_hero_banners",
+  "info": {
+    "name": "Repeatable-Hero-Banner",
+    "icon": "history"
+  },
+  "options": {},
+  "attributes": {
+    "hero_banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.hero-banner"
+    }
+  }
+}

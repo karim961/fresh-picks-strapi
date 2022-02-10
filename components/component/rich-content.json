@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_component_rich_contents",
+  "info": {
+    "name": "Rich-Content",
+    "icon": "money-check-alt"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

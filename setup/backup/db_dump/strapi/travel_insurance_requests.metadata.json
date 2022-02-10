@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"strapi.travel_insurance_requests"}],"uuid":"f15f233944e8471aadb0ca89c7b7eae1"}

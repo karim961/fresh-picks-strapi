@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_component_paragraph_blocks",
+  "info": {
+    "name": "Paragraph-Block",
+    "icon": "money-check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.header-description"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "bottom",
+        "topRight",
+        "topLeft",
+        "bottomRight",
+        "bottomLeft"
+      ]
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

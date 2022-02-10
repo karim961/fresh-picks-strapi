@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"strapi.components_section_repeatable_hero_banners"}],"uuid":"e0b708ba06ef41adbe33d43d18429453"}

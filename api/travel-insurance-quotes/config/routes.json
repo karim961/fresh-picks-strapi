@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/travel-insurance-quotes",
+      "handler": "travel-insurance-quotes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/travel-insurance-quotes/count",
+      "handler": "travel-insurance-quotes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/travel-insurance-quotes/:id",
+      "handler": "travel-insurance-quotes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/travel-insurance-quotes",
+      "handler": "travel-insurance-quotes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/travel-insurance-quotes/:id",
+      "handler": "travel-insurance-quotes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/travel-insurance-quotes/:id",
+      "handler": "travel-insurance-quotes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/grid-components",
+      "handler": "grid-component.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/grid-components/count",
+      "handler": "grid-component.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/grid-components/:id",
+      "handler": "grid-component.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/grid-components",
+      "handler": "grid-component.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/grid-components/:id",
+      "handler": "grid-component.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/grid-components/:id",
+      "handler": "grid-component.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

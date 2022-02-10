@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"strapi.components_component_paragraph_blocks"}],"uuid":"13de5f0a4bcb408fa0f878cfd25868e8"}

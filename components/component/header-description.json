@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_header_descriptions",
+  "info": {
+    "name": "Header-Description",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
