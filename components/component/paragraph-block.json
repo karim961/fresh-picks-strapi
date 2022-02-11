@@ -1,7 +1,7 @@
 {
   "collectionName": "components_component_paragraph_blocks",
   "info": {
-    "name": "Paragraph-Block",
+    "name": "story-block",
     "icon": "money-check",
     "description": ""
   },
@@ -23,19 +23,23 @@
       "plugin": "upload",
       "required": false
     },
-    "imagePosition": {
-      "type": "enumeration",
-      "enum": [
-        "top",
-        "bottom",
-        "topRight",
-        "topLeft",
-        "bottomRight",
-        "bottomLeft"
-      ]
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     },
     "text": {
-      "type": "text"
+      "type": "richtext"
+    },
+    "image_on_right": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

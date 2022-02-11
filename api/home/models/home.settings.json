@@ -15,6 +15,21 @@
       "type": "component",
       "repeatable": false,
       "component": "section.repeatable-hero-banner"
+    },
+    "our_story": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.paragraph-block"
+    },
+    "our_mission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.paragraph-block"
+    },
+    "product_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.product-block"
     }
   }
 }

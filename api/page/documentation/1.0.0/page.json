@@ -535,135 +535,12 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "section.grid-block",
                         "section.carousel",
                         "section.repeatable-hero-banner",
                         "section.hero-banner",
                         "section.lets-talk",
                         "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "title": {
-                      "type": "string"
-                    },
-                    "components": {
-                      "required": [
-                        "id"
-                      ],
-                      "properties": {
-                        "id": {
-                          "type": "string"
-                        },
-                        "colSpace": {
-                          "type": "integer"
-                        },
-                        "content": {
-                          "type": "dynamiczone"
-                        },
-                        "tag": {
-                          "type": "string"
-                        },
-                        "published_at": {
-                          "type": "string"
-                        },
-                        "created_by": {
-                          "type": "string"
-                        },
-                        "updated_by": {
-                          "type": "string"
-                        }
-                      }
-                    },
-                    "background": {
-                      "required": [
-                        "id",
-                        "name",
-                        "hash",
-                        "mime",
-                        "size",
-                        "url",
-                        "provider"
-                      ],
-                      "properties": {
-                        "id": {
-                          "type": "string"
-                        },
-                        "name": {
-                          "type": "string"
-                        },
-                        "alternativeText": {
-                          "type": "string"
-                        },
-                        "caption": {
-                          "type": "string"
-                        },
-                        "width": {
-                          "type": "integer"
-                        },
-                        "height": {
-                          "type": "integer"
-                        },
-                        "formats": {
-                          "type": "object"
-                        },
-                        "hash": {
-                          "type": "string"
-                        },
-                        "ext": {
-                          "type": "string"
-                        },
-                        "mime": {
-                          "type": "string"
-                        },
-                        "size": {
-                          "type": "number"
-                        },
-                        "url": {
-                          "type": "string"
-                        },
-                        "previewUrl": {
-                          "type": "string"
-                        },
-                        "provider": {
-                          "type": "string"
-                        },
-                        "provider_metadata": {
-                          "type": "object"
-                        },
-                        "related": {
-                          "type": "string"
-                        },
-                        "created_by": {
-                          "type": "string"
-                        },
-                        "updated_by": {
-                          "type": "string"
-                        }
-                      }
-                    }
-                  },
-                  "required": [
-                    "id"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "section.grid-block",
-                        "section.carousel",
-                        "section.repeatable-hero-banner",
-                        "section.hero-banner",
-                        "section.lets-talk",
-                        "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
+                        "section.image-block"
                       ]
                     },
                     "id": {
@@ -853,14 +730,12 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "section.grid-block",
                         "section.carousel",
                         "section.repeatable-hero-banner",
                         "section.hero-banner",
                         "section.lets-talk",
                         "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
+                        "section.image-block"
                       ]
                     },
                     "id": {
@@ -977,14 +852,12 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "section.grid-block",
                         "section.carousel",
                         "section.repeatable-hero-banner",
                         "section.hero-banner",
                         "section.lets-talk",
                         "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
+                        "section.image-block"
                       ]
                     },
                     "id": {
@@ -1087,14 +960,12 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "section.grid-block",
                         "section.carousel",
                         "section.repeatable-hero-banner",
                         "section.hero-banner",
                         "section.lets-talk",
                         "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
+                        "section.image-block"
                       ]
                     },
                     "id": {
@@ -1193,19 +1064,79 @@
                             }
                           }
                         },
-                        "imagePosition": {
-                          "type": "string",
-                          "enum": [
-                            "top",
-                            "bottom",
-                            "topRight",
-                            "topLeft",
-                            "bottomRight",
-                            "bottomLeft"
-                          ]
+                        "background": {
+                          "required": [
+                            "id",
+                            "name",
+                            "hash",
+                            "mime",
+                            "size",
+                            "url",
+                            "provider"
+                          ],
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "alternativeText": {
+                              "type": "string"
+                            },
+                            "caption": {
+                              "type": "string"
+                            },
+                            "width": {
+                              "type": "integer"
+                            },
+                            "height": {
+                              "type": "integer"
+                            },
+                            "formats": {
+                              "type": "object"
+                            },
+                            "hash": {
+                              "type": "string"
+                            },
+                            "ext": {
+                              "type": "string"
+                            },
+                            "mime": {
+                              "type": "string"
+                            },
+                            "size": {
+                              "type": "number"
+                            },
+                            "url": {
+                              "type": "string"
+                            },
+                            "previewUrl": {
+                              "type": "string"
+                            },
+                            "provider": {
+                              "type": "string"
+                            },
+                            "provider_metadata": {
+                              "type": "object"
+                            },
+                            "related": {
+                              "type": "string"
+                            },
+                            "created_by": {
+                              "type": "string"
+                            },
+                            "updated_by": {
+                              "type": "string"
+                            }
+                          }
                         },
                         "text": {
                           "type": "string"
+                        },
+                        "image_on_right": {
+                          "type": "boolean",
+                          "default": false
                         }
                       }
                     }
@@ -1219,14 +1150,12 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "section.grid-block",
                         "section.carousel",
                         "section.repeatable-hero-banner",
                         "section.hero-banner",
                         "section.lets-talk",
                         "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
+                        "section.image-block"
                       ]
                     },
                     "id": {
@@ -1316,19 +1245,79 @@
                         }
                       }
                     },
-                    "imagePosition": {
-                      "type": "string",
-                      "enum": [
-                        "top",
-                        "bottom",
-                        "topRight",
-                        "topLeft",
-                        "bottomRight",
-                        "bottomLeft"
-                      ]
+                    "background": {
+                      "required": [
+                        "id",
+                        "name",
+                        "hash",
+                        "mime",
+                        "size",
+                        "url",
+                        "provider"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "alternativeText": {
+                          "type": "string"
+                        },
+                        "caption": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "formats": {
+                          "type": "object"
+                        },
+                        "hash": {
+                          "type": "string"
+                        },
+                        "ext": {
+                          "type": "string"
+                        },
+                        "mime": {
+                          "type": "string"
+                        },
+                        "size": {
+                          "type": "number"
+                        },
+                        "url": {
+                          "type": "string"
+                        },
+                        "previewUrl": {
+                          "type": "string"
+                        },
+                        "provider": {
+                          "type": "string"
+                        },
+                        "provider_metadata": {
+                          "type": "object"
+                        },
+                        "related": {
+                          "type": "string"
+                        },
+                        "created_by": {
+                          "type": "string"
+                        },
+                        "updated_by": {
+                          "type": "string"
+                        }
+                      }
                     },
                     "text": {
                       "type": "string"
+                    },
+                    "image_on_right": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
@@ -1340,14 +1329,12 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "section.grid-block",
                         "section.carousel",
                         "section.repeatable-hero-banner",
                         "section.hero-banner",
                         "section.lets-talk",
                         "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
+                        "section.image-block"
                       ]
                     },
                     "id": {
@@ -1550,157 +1537,79 @@
                             }
                           }
                         },
-                        "imagePosition": {
-                          "type": "string",
-                          "enum": [
-                            "top",
-                            "bottom",
-                            "topRight",
-                            "topLeft",
-                            "bottomRight",
-                            "bottomLeft"
-                          ]
+                        "background": {
+                          "required": [
+                            "id",
+                            "name",
+                            "hash",
+                            "mime",
+                            "size",
+                            "url",
+                            "provider"
+                          ],
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "alternativeText": {
+                              "type": "string"
+                            },
+                            "caption": {
+                              "type": "string"
+                            },
+                            "width": {
+                              "type": "integer"
+                            },
+                            "height": {
+                              "type": "integer"
+                            },
+                            "formats": {
+                              "type": "object"
+                            },
+                            "hash": {
+                              "type": "string"
+                            },
+                            "ext": {
+                              "type": "string"
+                            },
+                            "mime": {
+                              "type": "string"
+                            },
+                            "size": {
+                              "type": "number"
+                            },
+                            "url": {
+                              "type": "string"
+                            },
+                            "previewUrl": {
+                              "type": "string"
+                            },
+                            "provider": {
+                              "type": "string"
+                            },
+                            "provider_metadata": {
+                              "type": "object"
+                            },
+                            "related": {
+                              "type": "string"
+                            },
+                            "created_by": {
+                              "type": "string"
+                            },
+                            "updated_by": {
+                              "type": "string"
+                            }
+                          }
                         },
                         "text": {
                           "type": "string"
-                        }
-                      }
-                    }
-                  },
-                  "required": [
-                    "id"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "section.grid-block",
-                        "section.carousel",
-                        "section.repeatable-hero-banner",
-                        "section.hero-banner",
-                        "section.lets-talk",
-                        "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "title": {
-                      "type": "string"
-                    },
-                    "description": {
-                      "type": "array",
-                      "items": {
-                        "type": "object",
-                        "required": [
-                          "id"
-                        ],
-                        "properties": {
-                          "id": {
-                            "type": "string"
-                          },
-                          "header": {
-                            "type": "object",
-                            "required": [
-                              "id"
-                            ],
-                            "properties": {
-                              "id": {
-                                "type": "string"
-                              },
-                              "title": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string"
-                              }
-                            }
-                          },
-                          "image": {
-                            "required": [
-                              "id",
-                              "name",
-                              "hash",
-                              "mime",
-                              "size",
-                              "url",
-                              "provider"
-                            ],
-                            "properties": {
-                              "id": {
-                                "type": "string"
-                              },
-                              "name": {
-                                "type": "string"
-                              },
-                              "alternativeText": {
-                                "type": "string"
-                              },
-                              "caption": {
-                                "type": "string"
-                              },
-                              "width": {
-                                "type": "integer"
-                              },
-                              "height": {
-                                "type": "integer"
-                              },
-                              "formats": {
-                                "type": "object"
-                              },
-                              "hash": {
-                                "type": "string"
-                              },
-                              "ext": {
-                                "type": "string"
-                              },
-                              "mime": {
-                                "type": "string"
-                              },
-                              "size": {
-                                "type": "number"
-                              },
-                              "url": {
-                                "type": "string"
-                              },
-                              "previewUrl": {
-                                "type": "string"
-                              },
-                              "provider": {
-                                "type": "string"
-                              },
-                              "provider_metadata": {
-                                "type": "object"
-                              },
-                              "related": {
-                                "type": "string"
-                              },
-                              "created_by": {
-                                "type": "string"
-                              },
-                              "updated_by": {
-                                "type": "string"
-                              }
-                            }
-                          },
-                          "imagePosition": {
-                            "type": "string",
-                            "enum": [
-                              "top",
-                              "bottom",
-                              "topRight",
-                              "topLeft",
-                              "bottomRight",
-                              "bottomLeft"
-                            ]
-                          },
-                          "text": {
-                            "type": "string"
-                          }
+                        },
+                        "image_on_right": {
+                          "type": "boolean",
+                          "default": false
                         }
                       }
                     }
@@ -1805,135 +1714,12 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "section.grid-block",
                         "section.carousel",
                         "section.repeatable-hero-banner",
                         "section.hero-banner",
                         "section.lets-talk",
                         "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "title": {
-                      "type": "string"
-                    },
-                    "components": {
-                      "required": [
-                        "id"
-                      ],
-                      "properties": {
-                        "id": {
-                          "type": "string"
-                        },
-                        "colSpace": {
-                          "type": "integer"
-                        },
-                        "content": {
-                          "type": "dynamiczone"
-                        },
-                        "tag": {
-                          "type": "string"
-                        },
-                        "published_at": {
-                          "type": "string"
-                        },
-                        "created_by": {
-                          "type": "string"
-                        },
-                        "updated_by": {
-                          "type": "string"
-                        }
-                      }
-                    },
-                    "background": {
-                      "required": [
-                        "id",
-                        "name",
-                        "hash",
-                        "mime",
-                        "size",
-                        "url",
-                        "provider"
-                      ],
-                      "properties": {
-                        "id": {
-                          "type": "string"
-                        },
-                        "name": {
-                          "type": "string"
-                        },
-                        "alternativeText": {
-                          "type": "string"
-                        },
-                        "caption": {
-                          "type": "string"
-                        },
-                        "width": {
-                          "type": "integer"
-                        },
-                        "height": {
-                          "type": "integer"
-                        },
-                        "formats": {
-                          "type": "object"
-                        },
-                        "hash": {
-                          "type": "string"
-                        },
-                        "ext": {
-                          "type": "string"
-                        },
-                        "mime": {
-                          "type": "string"
-                        },
-                        "size": {
-                          "type": "number"
-                        },
-                        "url": {
-                          "type": "string"
-                        },
-                        "previewUrl": {
-                          "type": "string"
-                        },
-                        "provider": {
-                          "type": "string"
-                        },
-                        "provider_metadata": {
-                          "type": "object"
-                        },
-                        "related": {
-                          "type": "string"
-                        },
-                        "created_by": {
-                          "type": "string"
-                        },
-                        "updated_by": {
-                          "type": "string"
-                        }
-                      }
-                    }
-                  },
-                  "required": [
-                    "id"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "section.grid-block",
-                        "section.carousel",
-                        "section.repeatable-hero-banner",
-                        "section.hero-banner",
-                        "section.lets-talk",
-                        "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
+                        "section.image-block"
                       ]
                     },
                     "id": {
@@ -2123,14 +1909,12 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "section.grid-block",
                         "section.carousel",
                         "section.repeatable-hero-banner",
                         "section.hero-banner",
                         "section.lets-talk",
                         "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
+                        "section.image-block"
                       ]
                     },
                     "id": {
@@ -2247,14 +2031,12 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "section.grid-block",
                         "section.carousel",
                         "section.repeatable-hero-banner",
                         "section.hero-banner",
                         "section.lets-talk",
                         "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
+                        "section.image-block"
                       ]
                     },
                     "id": {
@@ -2357,14 +2139,12 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "section.grid-block",
                         "section.carousel",
                         "section.repeatable-hero-banner",
                         "section.hero-banner",
                         "section.lets-talk",
                         "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
+                        "section.image-block"
                       ]
                     },
                     "id": {
@@ -2463,19 +2243,79 @@
                             }
                           }
                         },
-                        "imagePosition": {
-                          "type": "string",
-                          "enum": [
-                            "top",
-                            "bottom",
-                            "topRight",
-                            "topLeft",
-                            "bottomRight",
-                            "bottomLeft"
-                          ]
+                        "background": {
+                          "required": [
+                            "id",
+                            "name",
+                            "hash",
+                            "mime",
+                            "size",
+                            "url",
+                            "provider"
+                          ],
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "alternativeText": {
+                              "type": "string"
+                            },
+                            "caption": {
+                              "type": "string"
+                            },
+                            "width": {
+                              "type": "integer"
+                            },
+                            "height": {
+                              "type": "integer"
+                            },
+                            "formats": {
+                              "type": "object"
+                            },
+                            "hash": {
+                              "type": "string"
+                            },
+                            "ext": {
+                              "type": "string"
+                            },
+                            "mime": {
+                              "type": "string"
+                            },
+                            "size": {
+                              "type": "number"
+                            },
+                            "url": {
+                              "type": "string"
+                            },
+                            "previewUrl": {
+                              "type": "string"
+                            },
+                            "provider": {
+                              "type": "string"
+                            },
+                            "provider_metadata": {
+                              "type": "object"
+                            },
+                            "related": {
+                              "type": "string"
+                            },
+                            "created_by": {
+                              "type": "string"
+                            },
+                            "updated_by": {
+                              "type": "string"
+                            }
+                          }
                         },
                         "text": {
                           "type": "string"
+                        },
+                        "image_on_right": {
+                          "type": "boolean",
+                          "default": false
                         }
                       }
                     }
@@ -2489,14 +2329,12 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "section.grid-block",
                         "section.carousel",
                         "section.repeatable-hero-banner",
                         "section.hero-banner",
                         "section.lets-talk",
                         "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
+                        "section.image-block"
                       ]
                     },
                     "id": {
@@ -2586,19 +2424,79 @@
                         }
                       }
                     },
-                    "imagePosition": {
-                      "type": "string",
-                      "enum": [
-                        "top",
-                        "bottom",
-                        "topRight",
-                        "topLeft",
-                        "bottomRight",
-                        "bottomLeft"
-                      ]
+                    "background": {
+                      "required": [
+                        "id",
+                        "name",
+                        "hash",
+                        "mime",
+                        "size",
+                        "url",
+                        "provider"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "alternativeText": {
+                          "type": "string"
+                        },
+                        "caption": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "formats": {
+                          "type": "object"
+                        },
+                        "hash": {
+                          "type": "string"
+                        },
+                        "ext": {
+                          "type": "string"
+                        },
+                        "mime": {
+                          "type": "string"
+                        },
+                        "size": {
+                          "type": "number"
+                        },
+                        "url": {
+                          "type": "string"
+                        },
+                        "previewUrl": {
+                          "type": "string"
+                        },
+                        "provider": {
+                          "type": "string"
+                        },
+                        "provider_metadata": {
+                          "type": "object"
+                        },
+                        "related": {
+                          "type": "string"
+                        },
+                        "created_by": {
+                          "type": "string"
+                        },
+                        "updated_by": {
+                          "type": "string"
+                        }
+                      }
                     },
                     "text": {
                       "type": "string"
+                    },
+                    "image_on_right": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
@@ -2610,14 +2508,12 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "section.grid-block",
                         "section.carousel",
                         "section.repeatable-hero-banner",
                         "section.hero-banner",
                         "section.lets-talk",
                         "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
+                        "section.image-block"
                       ]
                     },
                     "id": {
@@ -2820,157 +2716,79 @@
                             }
                           }
                         },
-                        "imagePosition": {
-                          "type": "string",
-                          "enum": [
-                            "top",
-                            "bottom",
-                            "topRight",
-                            "topLeft",
-                            "bottomRight",
-                            "bottomLeft"
-                          ]
+                        "background": {
+                          "required": [
+                            "id",
+                            "name",
+                            "hash",
+                            "mime",
+                            "size",
+                            "url",
+                            "provider"
+                          ],
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "alternativeText": {
+                              "type": "string"
+                            },
+                            "caption": {
+                              "type": "string"
+                            },
+                            "width": {
+                              "type": "integer"
+                            },
+                            "height": {
+                              "type": "integer"
+                            },
+                            "formats": {
+                              "type": "object"
+                            },
+                            "hash": {
+                              "type": "string"
+                            },
+                            "ext": {
+                              "type": "string"
+                            },
+                            "mime": {
+                              "type": "string"
+                            },
+                            "size": {
+                              "type": "number"
+                            },
+                            "url": {
+                              "type": "string"
+                            },
+                            "previewUrl": {
+                              "type": "string"
+                            },
+                            "provider": {
+                              "type": "string"
+                            },
+                            "provider_metadata": {
+                              "type": "object"
+                            },
+                            "related": {
+                              "type": "string"
+                            },
+                            "created_by": {
+                              "type": "string"
+                            },
+                            "updated_by": {
+                              "type": "string"
+                            }
+                          }
                         },
                         "text": {
                           "type": "string"
-                        }
-                      }
-                    }
-                  },
-                  "required": [
-                    "id"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "section.grid-block",
-                        "section.carousel",
-                        "section.repeatable-hero-banner",
-                        "section.hero-banner",
-                        "section.lets-talk",
-                        "component.paragraph-block",
-                        "section.image-block",
-                        "section.description-block"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "title": {
-                      "type": "string"
-                    },
-                    "description": {
-                      "type": "array",
-                      "items": {
-                        "type": "object",
-                        "required": [
-                          "id"
-                        ],
-                        "properties": {
-                          "id": {
-                            "type": "string"
-                          },
-                          "header": {
-                            "type": "object",
-                            "required": [
-                              "id"
-                            ],
-                            "properties": {
-                              "id": {
-                                "type": "string"
-                              },
-                              "title": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string"
-                              }
-                            }
-                          },
-                          "image": {
-                            "required": [
-                              "id",
-                              "name",
-                              "hash",
-                              "mime",
-                              "size",
-                              "url",
-                              "provider"
-                            ],
-                            "properties": {
-                              "id": {
-                                "type": "string"
-                              },
-                              "name": {
-                                "type": "string"
-                              },
-                              "alternativeText": {
-                                "type": "string"
-                              },
-                              "caption": {
-                                "type": "string"
-                              },
-                              "width": {
-                                "type": "integer"
-                              },
-                              "height": {
-                                "type": "integer"
-                              },
-                              "formats": {
-                                "type": "object"
-                              },
-                              "hash": {
-                                "type": "string"
-                              },
-                              "ext": {
-                                "type": "string"
-                              },
-                              "mime": {
-                                "type": "string"
-                              },
-                              "size": {
-                                "type": "number"
-                              },
-                              "url": {
-                                "type": "string"
-                              },
-                              "previewUrl": {
-                                "type": "string"
-                              },
-                              "provider": {
-                                "type": "string"
-                              },
-                              "provider_metadata": {
-                                "type": "object"
-                              },
-                              "related": {
-                                "type": "string"
-                              },
-                              "created_by": {
-                                "type": "string"
-                              },
-                              "updated_by": {
-                                "type": "string"
-                              }
-                            }
-                          },
-                          "imagePosition": {
-                            "type": "string",
-                            "enum": [
-                              "top",
-                              "bottom",
-                              "topRight",
-                              "topLeft",
-                              "bottomRight",
-                              "bottomLeft"
-                            ]
-                          },
-                          "text": {
-                            "type": "string"
-                          }
+                        },
+                        "image_on_right": {
+                          "type": "boolean",
+                          "default": false
                         }
                       }
                     }
