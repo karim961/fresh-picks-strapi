@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_section_product_blocks",
+  "info": {
+    "name": "Product-Block",
+    "icon": "truck-loading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "categories": {
+      "collection": "categories"
+    }
+  }
+}
