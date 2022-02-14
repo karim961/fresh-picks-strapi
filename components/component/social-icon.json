@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_component_social_icons",
+  "info": {
+    "name": "social-Icon",
+    "icon": "icons"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
