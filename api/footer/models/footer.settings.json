@@ -16,6 +16,11 @@
     },
     "description": {
       "type": "text"
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.social-icon"
     }
   }
 }

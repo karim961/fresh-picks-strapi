@@ -323,6 +323,26 @@
           },
           "description": {
             "type": "string"
+          },
+          "social_links": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "icon": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -333,6 +353,26 @@
           },
           "description": {
             "type": "string"
+          },
+          "social_links": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "icon": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              }
+            }
           },
           "created_by": {
             "type": "string"
