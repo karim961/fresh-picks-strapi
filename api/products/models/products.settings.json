@@ -39,8 +39,14 @@
       "via": "products",
       "model": "categories"
     },
-    "months": {
-      "collection": "months"
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "variations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.variations"
     }
   }
 }

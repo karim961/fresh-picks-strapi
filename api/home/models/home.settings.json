@@ -30,6 +30,14 @@
       "type": "component",
       "repeatable": false,
       "component": "section.product-block"
+    },
+    "featured_products": {
+      "collection": "products"
+    },
+    "partners_block": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.image"
     }
   }
 }
