@@ -691,6 +691,9 @@
               "slug": {
                 "type": "string"
               },
+              "order": {
+                "type": "integer"
+              },
               "published_at": {
                 "type": "string"
               },

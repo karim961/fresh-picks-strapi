@@ -38,6 +38,10 @@
     "slug": {
       "type": "string",
       "unique": true
+    },
+    "order": {
+      "type": "integer",
+      "unique": true
     }
   }
 }
