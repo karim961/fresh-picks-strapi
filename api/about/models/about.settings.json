@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "about"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hero_banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.hero-banner"
+    },
+    "our_story": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.paragraph-block"
+    },
+    "our_mission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.paragraph-block"
+    }
+  }
+}
