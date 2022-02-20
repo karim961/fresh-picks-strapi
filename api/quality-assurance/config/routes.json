@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/quality-assurance",
+      "handler": "quality-assurance.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/quality-assurance",
+      "handler": "quality-assurance.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/quality-assurance",
+      "handler": "quality-assurance.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

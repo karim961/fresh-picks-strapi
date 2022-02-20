@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "quality_assurances",
+  "info": {
+    "name": "quality_assurance"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hero_banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.hero-banner"
+    },
+    "first_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.paragraph-block"
+    },
+    "second_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.paragraph-block"
+    }
+  }
+}
