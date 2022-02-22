@@ -10,15 +10,6 @@
     "origin": {
       "type": "string"
     },
-    "icon": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "january": {
       "type": "boolean",
       "default": false
@@ -67,6 +58,5 @@
       "type": "boolean",
       "default": false
     }
-
   }
 }
