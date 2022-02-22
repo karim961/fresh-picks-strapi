@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "02/22/2022 4:59:07 PM"
+    "x-generation-date": "02/22/2022 5:26:02 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5988,7 +5988,8 @@
       },
       "Categories": {
         "required": [
-          "id"
+          "id",
+          "title"
         ],
         "properties": {
           "id": {
@@ -6169,7 +6170,10 @@
             "type": "array",
             "items": {
               "required": [
-                "id"
+                "id",
+                "title",
+                "Image",
+                "icon"
               ],
               "properties": {
                 "id": {
@@ -6221,6 +6225,9 @@
         }
       },
       "NewCategories": {
+        "required": [
+          "title"
+        ],
         "properties": {
           "title": {
             "type": "string"
@@ -7293,7 +7300,8 @@
               },
               "categories": {
                 "required": [
-                  "id"
+                  "id",
+                  "title"
                 ],
                 "properties": {
                   "id": {
@@ -7338,7 +7346,10 @@
           },
           "featured_products": {
             "required": [
-              "id"
+              "id",
+              "title",
+              "Image",
+              "icon"
             ],
             "properties": {
               "id": {
@@ -7932,7 +7943,8 @@
               },
               "categories": {
                 "required": [
-                  "id"
+                  "id",
+                  "title"
                 ],
                 "properties": {
                   "id": {
@@ -8073,7 +8085,10 @@
       },
       "Products": {
         "required": [
-          "id"
+          "id",
+          "title",
+          "Image",
+          "icon"
         ],
         "properties": {
           "id": {
@@ -8221,7 +8236,8 @@
           },
           "category": {
             "required": [
-              "id"
+              "id",
+              "title"
             ],
             "properties": {
               "id": {
@@ -8404,6 +8420,9 @@
         }
       },
       "NewProducts": {
+        "required": [
+          "title"
+        ],
         "properties": {
           "title": {
             "type": "string"

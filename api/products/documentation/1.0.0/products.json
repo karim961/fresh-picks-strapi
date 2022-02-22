@@ -516,7 +516,10 @@
     "schemas": {
       "Products": {
         "required": [
-          "id"
+          "id",
+          "title",
+          "Image",
+          "icon"
         ],
         "properties": {
           "id": {
@@ -664,7 +667,8 @@
           },
           "category": {
             "required": [
-              "id"
+              "id",
+              "title"
             ],
             "properties": {
               "id": {
@@ -847,6 +851,9 @@
         }
       },
       "NewProducts": {
+        "required": [
+          "title"
+        ],
         "properties": {
           "title": {
             "type": "string"

@@ -516,7 +516,8 @@
     "schemas": {
       "Categories": {
         "required": [
-          "id"
+          "id",
+          "title"
         ],
         "properties": {
           "id": {
@@ -697,7 +698,10 @@
             "type": "array",
             "items": {
               "required": [
-                "id"
+                "id",
+                "title",
+                "Image",
+                "icon"
               ],
               "properties": {
                 "id": {
@@ -749,6 +753,9 @@
         }
       },
       "NewCategories": {
+        "required": [
+          "title"
+        ],
         "properties": {
           "title": {
             "type": "string"

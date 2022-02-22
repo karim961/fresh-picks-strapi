@@ -785,7 +785,8 @@
               },
               "categories": {
                 "required": [
-                  "id"
+                  "id",
+                  "title"
                 ],
                 "properties": {
                   "id": {
@@ -830,7 +831,10 @@
           },
           "featured_products": {
             "required": [
-              "id"
+              "id",
+              "title",
+              "Image",
+              "icon"
             ],
             "properties": {
               "id": {
@@ -1424,7 +1428,8 @@
               },
               "categories": {
                 "required": [
-                  "id"
+                  "id",
+                  "title"
                 ],
                 "properties": {
                   "id": {
