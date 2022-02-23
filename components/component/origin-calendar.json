@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_component_origin_calendars",
+  "info": {
+    "name": "origin_calendar",
+    "icon": "calendar-week"
+  },
+  "options": {},
+  "attributes": {
+    "origin": {
+      "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "january": {
+      "type": "boolean",
+      "default": false
+    },
+    "february": {
+      "type": "boolean",
+      "default": false
+    },
+    "march": {
+      "type": "boolean",
+      "default": false
+    },
+    "april": {
+      "type": "boolean",
+      "default": false
+    },
+    "may": {
+      "type": "boolean",
+      "default": false
+    },
+    "june": {
+      "type": "boolean",
+      "default": false
+    },
+    "july": {
+      "type": "boolean",
+      "default": false
+    },
+    "august": {
+      "type": "boolean",
+      "default": false
+    },
+    "september": {
+      "type": "boolean",
+      "default": false
+    },
+    "october": {
+      "type": "boolean",
+      "default": false
+    },
+    "november": {
+      "type": "boolean",
+      "default": false
+    },
+    "december": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
