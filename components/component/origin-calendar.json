@@ -2,21 +2,13 @@
   "collectionName": "components_component_origin_calendars",
   "info": {
     "name": "origin_calendar",
-    "icon": "calendar-week"
+    "icon": "calendar-week",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "origin": {
       "type": "string"
-    },
-    "icon": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
     },
     "january": {
       "type": "boolean",

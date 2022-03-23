@@ -37,8 +37,8 @@
       "type": "richtext"
     },
     "category": {
-      "via": "products",
-      "model": "categories"
+      "model": "categories",
+      "via": "products"
     },
     "slug": {
       "type": "string",
@@ -48,6 +48,18 @@
       "type": "component",
       "repeatable": true,
       "component": "component.variations"
+    },
+    "packaging_description": {
+      "type": "richtext"
+    },
+    "packaging_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

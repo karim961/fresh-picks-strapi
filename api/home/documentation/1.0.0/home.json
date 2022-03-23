@@ -861,6 +861,12 @@
               "variations": {
                 "type": "component"
               },
+              "packaging_description": {
+                "type": "string"
+              },
+              "packaging_image": {
+                "type": "string"
+              },
               "published_at": {
                 "type": "string"
               },
