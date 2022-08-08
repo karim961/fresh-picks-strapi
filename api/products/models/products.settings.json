@@ -60,6 +60,18 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "packaging_description2": {
+      "type": "richtext"
+    },
+    "packaging_image2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

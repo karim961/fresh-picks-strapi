@@ -38,6 +38,15 @@
       "type": "component",
       "repeatable": true,
       "component": "section.image"
+    },
+    "map": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

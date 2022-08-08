@@ -734,6 +734,12 @@
                 "packaging_image": {
                   "type": "string"
                 },
+                "packaging_description2": {
+                  "type": "string"
+                },
+                "packaging_image2": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
